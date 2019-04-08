@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Acme);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Wellfleet);
+
+body{
+	background-color:NavajoWhite;
+	color:saddlebrown;
+	font-family:Wellfleet;	
+	font-size:1.5em;
+}
+
+#search_section_div{
+	display:flex;
+	justify-content:center;
+}
+
+#textbox_div{
+	width:75%;
+}
+
+#button_div{
+	outline: none;
+}
+
+#textbox{
+	background:NavajoWhite;
+    border:4px solid burlywood;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	color:burlywood;
+	font-family:Wellfleet;	
+	font-size:1em;
+	outline:0;
+	padding-top:5px;
+	padding-right:5px;
+	padding-bottom:5px;
+	padding-left:8px;
+	width: 100%;
+}
+
+#button {
+	background-color:burlywood;
+	border:none;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+	color:NavajoWhite;
+	font-family:Wellfleet;	
+	font-size:1em;
+	outline:0;
+	padding-top:9px;
+	padding-right:12px;
+	padding-bottom:9px;
+	padding-left:4px;
+}
+
+#main_section{
+	margin-right:auto;
+	margin-left:auto;
+	width:90%;
+}
+
+#header_cell{
+	text-align:center;
+	font-size:1.75em;
+}
+
+#image_cell{
+	width:40%;
+	text-align:center;
+}
+
+#png{
+	max-height:90%;
+	max-width:90%;
+}
