@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+	<head>
+		<title>Pathfinder Codex</title>
+		<link rel='stylesheet' type='text/css' href='pf_codex.css'> 
+		<script src='pf_codex.js'></script>
+	</head>
+	<body>
+
+		<!--   TABLE VERSION   -->
+		<div id='search_section_div'>
+			<div id='textbox_div'><input id='textbox' type='text'></div>
+			<div id='button_div'><input id='button' type="submit" value='Submit' onclick='getTerm()'></div>
+		</div>
+		<table id='main_section'>
+		  	<tr id='header_row'>
+				<td colspan="2" id='header_cell'><span id='term'></span></td>
+			</tr>
+			<tr id='wrapper_row'>
+				<td id='image_cell'><span id='image'></span></td>
+				<td id='stats_cell'><span id='stats'></span></td>
+			</tr>
+			<tr id='footer_row'>
+				<td colspan="2" id='footer_cell'><span id='text'></span></td>
+			</tr>
+		</table>
+	</body>
+</html>
